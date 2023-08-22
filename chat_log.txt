@@ -1,0 +1,1139 @@
+2023-08-22 12:36:57,600 - INFO - Bot: MassageSlimGirl [@InstaMassageBot]
+2023-08-22 12:36:57,760 - WARNING - Updates were skipped successfully.
+2023-08-22 12:36:57,760 - INFO - Start polling.
+2023-08-22 12:37:12,699 - INFO - Received message [ID:1292] in chat [private:445152825]
+2023-08-22 12:37:12,834 - INFO - Process update [ID:214330261]: [success] (in 135 ms)
+2023-08-22 12:37:21,744 - INFO - Received message [ID:1294] in chat [private:445152825]
+2023-08-22 12:37:22,041 - INFO - User: Сергей (ID: 445152825)
+Question: Какой массаж вы делаете?
+Bot Response: Сергей!
+Мы делаем такие виды массажа как: 
+карамельная липосакция,
+антицеллюлитный массаж, 
+медовый массаж, 
+лимфодренажный массаж(ручной и аппаратный),
+обертывание, дренажный массаж, 
+массаж с горячим скрабом, 
+аппаратный массаж, 
+вибромассаж, кавитация, 
+вакумный массаж, 
+биофотон, 
+массаж лица классический, 
+сплит массаж лица. 
+
+
+
+2023-08-22 12:37:22,041 - INFO - Process update [ID:214330262]: [failed] (in 297 ms)
+2023-08-22 12:37:22,041 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-15' coro=<Dispatcher._process_polling_updates() done, defined at /Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=TypeError('check_unanswered_messages() takes 0 positional arguments but 1 was given')>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/sergey/ds_bootcamp/InstaMassageBot/Bot/Massage_bot.py", line 101, in handle_user_message
+    loop.create_task(check_unanswered_messages(user_id))
+TypeError: check_unanswered_messages() takes 0 positional arguments but 1 was given
+2023-08-22 12:37:33,420 - INFO - Received message [ID:1296] in chat [private:445152825]
+2023-08-22 12:37:33,712 - INFO - User: Сергей (ID: 445152825)
+Question: Что такое карамельная липосакция?
+Bot Response: Сергей!
+B отличие от других техник, карамельная липосакция имеет в своей основе схему из непрерывных хлопковых движений и, связанных между собой гармоничными переходами от одной части тела к другой, от глубокого мышечного расслабления к восстановлению общего состояния всего организма.
+Процедура благоприятно воздействует не только на кожу и подкожный слой, но и на весь организм в целом.
+При выполнении процедур отсутствуют болевые ощущения, после проведения не появляются синяки и отеки.
+
+
+
+2023-08-22 12:37:33,712 - INFO - Process update [ID:214330263]: [failed] (in 292 ms)
+2023-08-22 12:37:33,712 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-19' coro=<Dispatcher._process_polling_updates() done, defined at /Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=TypeError('check_unanswered_messages() takes 0 positional arguments but 1 was given')>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/sergey/ds_bootcamp/InstaMassageBot/Bot/Massage_bot.py", line 101, in handle_user_message
+    loop.create_task(check_unanswered_messages(user_id))
+TypeError: check_unanswered_messages() takes 0 positional arguments but 1 was given
+2023-08-22 12:37:46,998 - INFO - Received message [ID:1298] in chat [private:445152825]
+2023-08-22 12:37:47,349 - INFO - User: Сергей (ID: 445152825)
+Question: У вас есть массаж лица?
+Bot Response: Сергей!
+Да, у нас есть классический массаж лица и сплит масаж.
+
+
+
+2023-08-22 12:37:47,349 - INFO - Process update [ID:214330264]: [failed] (in 351 ms)
+2023-08-22 12:37:47,349 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-23' coro=<Dispatcher._process_polling_updates() done, defined at /Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=TypeError('check_unanswered_messages() takes 0 positional arguments but 1 was given')>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/sergey/ds_bootcamp/InstaMassageBot/Bot/Massage_bot.py", line 101, in handle_user_message
+    loop.create_task(check_unanswered_messages(user_id))
+TypeError: check_unanswered_messages() takes 0 positional arguments but 1 was given
+2023-08-22 12:37:56,268 - INFO - Received message [ID:1300] in chat [private:445152825]
+2023-08-22 12:37:56,548 - INFO - User: Сергей (ID: 445152825)
+Question: Что такое сплит массаж?
+Bot Response: Сергей!
+Сплит массаж - это инновация в области массажа лица. 
+Чтобы лучше понять, что это такое, попробуем провести аналогии с массажем тела.
+Лицо, так же как и тело, состоит из жировой ткани, мышц, креплений, связок, костей, фасций. 
+Изменения, которые происходят с нашим телом, также происходят в тканях, из которых состоит наше лицо. 
+И благодаря сплит массажу наше лицо, как и тело можно поддерживать в отличной форме.
+
+
+
+
+2023-08-22 12:37:56,548 - INFO - Process update [ID:214330265]: [failed] (in 280 ms)
+2023-08-22 12:37:56,548 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-27' coro=<Dispatcher._process_polling_updates() done, defined at /Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=TypeError('check_unanswered_messages() takes 0 positional arguments but 1 was given')>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/sergey/ds_bootcamp/InstaMassageBot/Bot/Massage_bot.py", line 101, in handle_user_message
+    loop.create_task(check_unanswered_messages(user_id))
+TypeError: check_unanswered_messages() takes 0 positional arguments but 1 was given
+2023-08-22 12:38:07,948 - INFO - Received message [ID:1302] in chat [private:445152825]
+2023-08-22 12:38:08,216 - INFO - User: Сергей (ID: 445152825)
+Question: Какая длительность ?
+Bot Response: Сергей!
+Польза медового массажа:
+Увеличение упругости кожи
+Избавление от проблемы "апельсиновой корки", целлюлитаулучшение кровообращения, 
+Ускорение лимфотока в организме
+Укрепление общего иммунитета, профилактика частых простудных заболеваний снятие нервного напряжения
+Уменьшение проявления пигментных пятен на лице, теле
+Нормализация артериального давления улучшение вида кожи
+Избавление от мигреней, головных болей, болей в области спины, шен
+Очищение, достижение эффекта пилинга кожи лица, тела
+Лечение и профилактика костных болезней организма (остеохондроза, радикулита)
+Уменьшение проявлений возрастных изменений кожи, растяжек, шрамов
+
+
+
+2023-08-22 12:38:08,216 - INFO - Process update [ID:214330266]: [failed] (in 268 ms)
+2023-08-22 12:38:08,216 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-31' coro=<Dispatcher._process_polling_updates() done, defined at /Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=TypeError('check_unanswered_messages() takes 0 positional arguments but 1 was given')>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/sergey/ds_bootcamp/InstaMassageBot/Bot/Massage_bot.py", line 101, in handle_user_message
+    loop.create_task(check_unanswered_messages(user_id))
+TypeError: check_unanswered_messages() takes 0 positional arguments but 1 was given
+2023-08-22 12:38:22,732 - INFO - Received message [ID:1304] in chat [private:445152825]
+2023-08-22 12:38:23,088 - INFO - User: Сергей (ID: 445152825)
+Question: Сколько по времени длиться сплит массаж?
+Bot Response: Сергей!
+Сплит массаж лица длится около 2-х часов
+
+
+
+2023-08-22 12:38:23,088 - INFO - Process update [ID:214330267]: [failed] (in 357 ms)
+2023-08-22 12:38:23,088 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-35' coro=<Dispatcher._process_polling_updates() done, defined at /Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=TypeError('check_unanswered_messages() takes 0 positional arguments but 1 was given')>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/sergey/ds_bootcamp/InstaMassageBot/Bot/Massage_bot.py", line 101, in handle_user_message
+    loop.create_task(check_unanswered_messages(user_id))
+TypeError: check_unanswered_messages() takes 0 positional arguments but 1 was given
+2023-08-22 12:38:32,351 - INFO - Received message [ID:1306] in chat [private:445152825]
+2023-08-22 12:38:32,618 - INFO - User: Сергей (ID: 445152825)
+Question: Что нужно брать с собой?
+Bot Response: Сергей!
+Ничего. Мы предоставляем все необходимое.
+
+
+
+2023-08-22 12:38:32,618 - INFO - Process update [ID:214330268]: [failed] (in 267 ms)
+2023-08-22 12:38:32,618 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-39' coro=<Dispatcher._process_polling_updates() done, defined at /Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=TypeError('check_unanswered_messages() takes 0 positional arguments but 1 was given')>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/sergey/ds_bootcamp/InstaMassageBot/Bot/Massage_bot.py", line 101, in handle_user_message
+    loop.create_task(check_unanswered_messages(user_id))
+TypeError: check_unanswered_messages() takes 0 positional arguments but 1 was given
+2023-08-22 12:38:45,661 - INFO - Received message [ID:1308] in chat [private:445152825]
+2023-08-22 12:38:45,988 - INFO - User: Сергей (ID: 445152825)
+Question: Как часто можно посещать процедуры?
+Bot Response: Сергей!
+Все зависит какой результат вы хотите, от вашего веса и ваших объемов, делать можно как раз в неделю, так и через день, зависит как срочно вам нужен эффект! Чем больше процедур, тем больше уходит объем!
+
+
+
+
+
+2023-08-22 12:38:45,988 - INFO - Process update [ID:214330269]: [failed] (in 327 ms)
+2023-08-22 12:38:45,988 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-43' coro=<Dispatcher._process_polling_updates() done, defined at /Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=TypeError('check_unanswered_messages() takes 0 positional arguments but 1 was given')>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/sergey/ds_bootcamp/InstaMassageBot/Bot/Massage_bot.py", line 101, in handle_user_message
+    loop.create_task(check_unanswered_messages(user_id))
+TypeError: check_unanswered_messages() takes 0 positional arguments but 1 was given
+2023-08-22 12:39:00,201 - INFO - Received message [ID:1310] in chat [private:445152825]
+2023-08-22 12:39:00,531 - INFO - User: Сергей (ID: 445152825)
+Question: А можно совмещать процедуры?
+Bot Response: Сергей!
+Да, можно, но не в один день.
+
+
+
+2023-08-22 12:39:00,531 - INFO - Process update [ID:214330270]: [failed] (in 330 ms)
+2023-08-22 12:39:00,531 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-47' coro=<Dispatcher._process_polling_updates() done, defined at /Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=TypeError('check_unanswered_messages() takes 0 positional arguments but 1 was given')>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/sergey/ds_bootcamp/InstaMassageBot/Bot/Massage_bot.py", line 101, in handle_user_message
+    loop.create_task(check_unanswered_messages(user_id))
+TypeError: check_unanswered_messages() takes 0 positional arguments but 1 was given
+2023-08-22 12:39:07,367 - INFO - Received message [ID:1312] in chat [private:445152825]
+2023-08-22 12:39:07,650 - INFO - User: Сергей (ID: 445152825)
+Question: А это больно?
+Bot Response: Сергей!
+Все достаточно терпимо, зависит от дня цикла и в целом от болевого порога!
+
+
+
+2023-08-22 12:39:07,650 - INFO - Process update [ID:214330271]: [failed] (in 284 ms)
+2023-08-22 12:39:07,650 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-51' coro=<Dispatcher._process_polling_updates() done, defined at /Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=TypeError('check_unanswered_messages() takes 0 positional arguments but 1 was given')>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/sergey/ds_bootcamp/InstaMassageBot/Bot/Massage_bot.py", line 101, in handle_user_message
+    loop.create_task(check_unanswered_messages(user_id))
+TypeError: check_unanswered_messages() takes 0 positional arguments but 1 was given
+2023-08-22 12:39:18,118 - INFO - Received message [ID:1314] in chat [private:445152825]
+2023-08-22 12:39:18,465 - INFO - User: Сергей (ID: 445152825)
+Question: А что вы посоветуете?
+Bot Response: Сергей!
+Антицеллюлитный массаж курс из 10 процедур: 
+Включает в себя: 
+Ручной антицеллюлитный массаж, дополняем с вакуумными банками, медовым массажем( если нет противопоказаний), массаж с горячим скрабом, обёртывание в инфракрасном одеяле (холодные, горячие, контрастные, подбираем индивидуально!) Бамбуковые веники, выкатка.
+Зоны: Ноги, бока, ягодицы, живот! 
+
+
+
+2023-08-22 12:39:18,465 - INFO - Process update [ID:214330272]: [failed] (in 347 ms)
+2023-08-22 12:39:18,465 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-55' coro=<Dispatcher._process_polling_updates() done, defined at /Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=TypeError('check_unanswered_messages() takes 0 positional arguments but 1 was given')>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/sergey/ds_bootcamp/InstaMassageBot/Bot/Massage_bot.py", line 101, in handle_user_message
+    loop.create_task(check_unanswered_messages(user_id))
+TypeError: check_unanswered_messages() takes 0 positional arguments but 1 was given
+2023-08-22 12:39:36,243 - INFO - Received message [ID:1316] in chat [private:445152825]
+2023-08-22 12:39:36,497 - INFO - User: Сергей (ID: 445152825)
+Question: Что посоветуете?
+Bot Response: Сергей!
+Кавитация - это единственный прямой терапевтический метод воздействия на жировую ткань. Эффект кавитации делает жировые образования мягче, отделяет их от других тканей и дает возможность их выведения из организма.
+
+
+
+2023-08-22 12:39:36,497 - INFO - Process update [ID:214330273]: [failed] (in 254 ms)
+2023-08-22 12:39:36,497 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-59' coro=<Dispatcher._process_polling_updates() done, defined at /Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=TypeError('check_unanswered_messages() takes 0 positional arguments but 1 was given')>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/sergey/ds_bootcamp/InstaMassageBot/Bot/Massage_bot.py", line 101, in handle_user_message
+    loop.create_task(check_unanswered_messages(user_id))
+TypeError: check_unanswered_messages() takes 0 positional arguments but 1 was given
+2023-08-22 12:39:46,689 - INFO - Received message [ID:1318] in chat [private:445152825]
+2023-08-22 12:39:46,950 - INFO - User: Сергей (ID: 445152825)
+Question: Какой массаж посоветуете?
+Bot Response: Сергей!
+Зависит от того какая у вас проблема, мы работаем с отечностью и лишним весом.
+
+
+
+2023-08-22 12:39:46,950 - INFO - Process update [ID:214330274]: [failed] (in 261 ms)
+2023-08-22 12:39:46,950 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-64' coro=<Dispatcher._process_polling_updates() done, defined at /Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=TypeError('check_unanswered_messages() takes 0 positional arguments but 1 was given')>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/sergey/ds_bootcamp/InstaMassageBot/Bot/Massage_bot.py", line 101, in handle_user_message
+    loop.create_task(check_unanswered_messages(user_id))
+TypeError: check_unanswered_messages() takes 0 positional arguments but 1 was given
+2023-08-22 12:39:58,362 - INFO - Received message [ID:1320] in chat [private:445152825]
+2023-08-22 12:39:58,634 - INFO - User: Сергей (ID: 445152825)
+Question: Я хочу похудеть
+Bot Response: Сергей!
+Вам подойдет курс, где мы скомбинируем разные техники, ручной антицеллюлитный массаж, три раза минимум медовый массаж, массаж два или три раза с горячим скрабом плюс добавим обёртывание на расглаживание кожи) В конце курса можно будет сделать карамельную липосакцию, один или пару раз, зависит от финансовой части конечно, но за курс из 10 процедур, результат будет хороший)
+
+
+
+2023-08-22 12:39:58,635 - INFO - Process update [ID:214330275]: [failed] (in 273 ms)
+2023-08-22 12:39:58,635 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-68' coro=<Dispatcher._process_polling_updates() done, defined at /Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=TypeError('check_unanswered_messages() takes 0 positional arguments but 1 was given')>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/sergey/ds_bootcamp/InstaMassageBot/Bot/Massage_bot.py", line 101, in handle_user_message
+    loop.create_task(check_unanswered_messages(user_id))
+TypeError: check_unanswered_messages() takes 0 positional arguments but 1 was given
+2023-08-22 12:40:19,157 - INFO - Received message [ID:1322] in chat [private:445152825]
+2023-08-22 12:40:19,449 - INFO - User: Сергей (ID: 445152825)
+Question: А по какому адресу вы находитесь?
+Bot Response: Сергей!
+Принимаем по адресу:
+- Центр,Ставрополь, ул.Пушкина 9 тц «Сити Парк»
+- Юг, Ставрополь, ул.50лет ВЛКСМ 28а, тц «Милан»
+- Михайловск, ул. Вокзальная 117/1
+
+
+
+2023-08-22 12:40:19,450 - INFO - Process update [ID:214330276]: [failed] (in 293 ms)
+2023-08-22 12:40:19,450 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-73' coro=<Dispatcher._process_polling_updates() done, defined at /Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=TypeError('check_unanswered_messages() takes 0 positional arguments but 1 was given')>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/sergey/ds_bootcamp/InstaMassageBot/Bot/Massage_bot.py", line 101, in handle_user_message
+    loop.create_task(check_unanswered_messages(user_id))
+TypeError: check_unanswered_messages() takes 0 positional arguments but 1 was given
+2023-08-22 12:40:34,761 - INFO - Received message [ID:1324] in chat [private:445152825]
+2023-08-22 12:40:35,160 - INFO - User: Сергей (ID: 445152825)
+Question: А курс это сколько процедур?
+Bot Response: Сергей!
+Курсы есть 5 и 10 процедур.
+
+
+
+2023-08-22 12:40:35,161 - INFO - Process update [ID:214330277]: [failed] (in 399 ms)
+2023-08-22 12:40:35,161 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-78' coro=<Dispatcher._process_polling_updates() done, defined at /Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=TypeError('check_unanswered_messages() takes 0 positional arguments but 1 was given')>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/sergey/ds_bootcamp/InstaMassageBot/Bot/Massage_bot.py", line 101, in handle_user_message
+    loop.create_task(check_unanswered_messages(user_id))
+TypeError: check_unanswered_messages() takes 0 positional arguments but 1 was given
+2023-08-22 12:40:50,208 - INFO - Received message [ID:1326] in chat [private:445152825]
+2023-08-22 12:40:50,574 - INFO - User: Сергей (ID: 445152825)
+Question: Можно оплатить картой?
+Bot Response: Сергей!
+Да, можно, но не в один день.
+
+
+
+2023-08-22 12:40:50,574 - INFO - Process update [ID:214330278]: [failed] (in 366 ms)
+2023-08-22 12:40:50,574 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-83' coro=<Dispatcher._process_polling_updates() done, defined at /Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=TypeError('check_unanswered_messages() takes 0 positional arguments but 1 was given')>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/sergey/ds_bootcamp/InstaMassageBot/Bot/Massage_bot.py", line 101, in handle_user_message
+    loop.create_task(check_unanswered_messages(user_id))
+TypeError: check_unanswered_messages() takes 0 positional arguments but 1 was given
+2023-08-22 12:41:01,543 - INFO - Received message [ID:1328] in chat [private:445152825]
+2023-08-22 12:41:01,906 - INFO - User: Сергей (ID: 445152825)
+Question: Как можно оплатить?
+Bot Response: Сергей!
+Можно оплатить картой, переводом, наличными. Так же принимаем Bitcoin и USDT.
+
+
+
+2023-08-22 12:41:01,906 - INFO - Process update [ID:214330279]: [failed] (in 363 ms)
+2023-08-22 12:41:01,906 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-88' coro=<Dispatcher._process_polling_updates() done, defined at /Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=TypeError('check_unanswered_messages() takes 0 positional arguments but 1 was given')>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/sergey/ds_bootcamp/InstaMassageBot/Bot/Massage_bot.py", line 101, in handle_user_message
+    loop.create_task(check_unanswered_messages(user_id))
+TypeError: check_unanswered_messages() takes 0 positional arguments but 1 was given
+2023-08-22 12:41:20,231 - INFO - Received message [ID:1330] in chat [private:445152825]
+2023-08-22 12:41:20,515 - INFO - Process update [ID:214330280]: [failed] (in 284 ms)
+2023-08-22 12:41:20,516 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-92' coro=<Dispatcher._process_polling_updates() done, defined at /Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=TypeError('check_unanswered_messages() takes 0 positional arguments but 1 was given')>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/sergey/ds_bootcamp/InstaMassageBot/Bot/Massage_bot.py", line 65, in handle_user_message
+    loop.create_task(check_unanswered_messages(user_id))
+TypeError: check_unanswered_messages() takes 0 positional arguments but 1 was given
+2023-08-22 12:41:26,119 - INFO - Received message [ID:1333] in chat [private:445152825]
+2023-08-22 12:41:26,241 - INFO - Process update [ID:214330281]: [success] (in 123 ms)
+2023-08-22 12:41:37,834 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-1' coro=<check_unanswered_messages() done, defined at /Users/sergey/ds_bootcamp/InstaMassageBot/Bot/Massage_bot.py:107> exception=RuntimeError('dictionary changed size during iteration')>
+Traceback (most recent call last):
+  File "/Users/sergey/ds_bootcamp/InstaMassageBot/Bot/Massage_bot.py", line 111, in check_unanswered_messages
+    for user_id, last_message_time in last_messages.items():
+RuntimeError: dictionary changed size during iteration
+2023-08-22 12:42:51,799 - INFO - Bot: MassageSlimGirl [@InstaMassageBot]
+2023-08-22 12:42:51,957 - WARNING - Updates were skipped successfully.
+2023-08-22 12:42:51,958 - INFO - Start polling.
+2023-08-22 12:42:57,953 - INFO - Bot: MassageSlimGirl [@InstaMassageBot]
+2023-08-22 12:42:58,093 - WARNING - Updates were skipped successfully.
+2023-08-22 12:42:58,094 - INFO - Start polling.
+2023-08-22 12:43:21,670 - INFO - Received message [ID:1337] in chat [private:445152825]
+2023-08-22 12:43:21,775 - INFO - Process update [ID:214330282]: [success] (in 104 ms)
+2023-08-22 12:43:30,010 - INFO - Received message [ID:1339] in chat [private:445152825]
+2023-08-22 12:43:30,288 - INFO - User: Сергей (ID: 445152825)
+Question: какой массаж вы делаете?
+Bot Response: Сергей!
+Мы делаем такие виды массажа как: 
+карамельная липосакция,
+антицеллюлитный массаж, 
+медовый массаж, 
+лимфодренажный массаж(ручной и аппаратный),
+обертывание, дренажный массаж, 
+массаж с горячим скрабом, 
+аппаратный массаж, 
+вибромассаж, кавитация, 
+вакумный массаж, 
+биофотон, 
+массаж лица классический, 
+сплит массаж лица. 
+
+
+
+2023-08-22 12:43:30,288 - INFO - Process update [ID:214330283]: [failed] (in 278 ms)
+2023-08-22 12:43:30,290 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-16' coro=<Dispatcher._process_polling_updates() done, defined at /Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=TypeError('check_unanswered_messages() takes 0 positional arguments but 1 was given')>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/sergey/ds_bootcamp/InstaMassageBot/Bot/Massage_bot.py", line 101, in handle_user_message
+    loop.create_task(check_unanswered_messages(user_id))
+TypeError: check_unanswered_messages() takes 0 positional arguments but 1 was given
+2023-08-22 12:43:43,180 - INFO - Received message [ID:1341] in chat [private:445152825]
+2023-08-22 12:43:43,446 - INFO - User: Сергей (ID: 445152825)
+Question: а какой массаж вы посоветуете?
+Bot Response: Сергей!
+Зависит от того какая у вас проблема, мы работаем с отечностью и лишним весом.
+
+
+
+2023-08-22 12:43:43,446 - INFO - Process update [ID:214330284]: [failed] (in 266 ms)
+2023-08-22 12:43:43,447 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-20' coro=<Dispatcher._process_polling_updates() done, defined at /Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=TypeError('check_unanswered_messages() takes 0 positional arguments but 1 was given')>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/sergey/ds_bootcamp/InstaMassageBot/Bot/Massage_bot.py", line 101, in handle_user_message
+    loop.create_task(check_unanswered_messages(user_id))
+TypeError: check_unanswered_messages() takes 0 positional arguments but 1 was given
+2023-08-22 12:43:51,661 - INFO - Received message [ID:1343] in chat [private:445152825]
+2023-08-22 12:43:51,923 - INFO - User: Сергей (ID: 445152825)
+Question: я хочу похудеть
+Bot Response: Сергей!
+Вам подойдет курс, где мы скомбинируем разные техники, ручной антицеллюлитный массаж, три раза минимум медовый массаж, массаж два или три раза с горячим скрабом плюс добавим обёртывание на расглаживание кожи) В конце курса можно будет сделать карамельную липосакцию, один или пару раз, зависит от финансовой части конечно, но за курс из 10 процедур, результат будет хороший)
+
+
+
+2023-08-22 12:43:51,923 - INFO - Process update [ID:214330285]: [failed] (in 261 ms)
+2023-08-22 12:43:51,927 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-24' coro=<Dispatcher._process_polling_updates() done, defined at /Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=TypeError('check_unanswered_messages() takes 0 positional arguments but 1 was given')>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/sergey/ds_bootcamp/InstaMassageBot/Bot/Massage_bot.py", line 101, in handle_user_message
+    loop.create_task(check_unanswered_messages(user_id))
+TypeError: check_unanswered_messages() takes 0 positional arguments but 1 was given
+2023-08-22 12:44:03,654 - INFO - Received message [ID:1345] in chat [private:445152825]
+2023-08-22 12:44:03,901 - INFO - User: Сергей (ID: 445152825)
+Question: что такое карамельная липосакция?
+Bot Response: Сергей!
+B отличие от других техник, карамельная липосакция имеет в своей основе схему из непрерывных хлопковых движений и, связанных между собой гармоничными переходами от одной части тела к другой, от глубокого мышечного расслабления к восстановлению общего состояния всего организма.
+Процедура благоприятно воздействует не только на кожу и подкожный слой, но и на весь организм в целом.
+При выполнении процедур отсутствуют болевые ощущения, после проведения не появляются синяки и отеки.
+
+
+
+2023-08-22 12:44:03,901 - INFO - Process update [ID:214330286]: [failed] (in 247 ms)
+2023-08-22 12:44:03,901 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-28' coro=<Dispatcher._process_polling_updates() done, defined at /Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=TypeError('check_unanswered_messages() takes 0 positional arguments but 1 was given')>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/sergey/ds_bootcamp/InstaMassageBot/Bot/Massage_bot.py", line 101, in handle_user_message
+    loop.create_task(check_unanswered_messages(user_id))
+TypeError: check_unanswered_messages() takes 0 positional arguments but 1 was given
+2023-08-22 12:44:17,957 - INFO - Received message [ID:1347] in chat [private:445152825]
+2023-08-22 12:44:18,273 - INFO - User: Сергей (ID: 445152825)
+Question: а какие есть противопоказания/
+Bot Response: Сергей!
+Противопоказания:
+Операции (процедуру можно проводить не раньше, чем через полгода после операционного вмешательства)
+Беременность 
+Критические дни (первые три дня)
+Миома матки и кисты в прогрессивном росте!
+Эпилепсия 
+Сердечно сосудистые заболевания 
+Варикозное расширение вен 2-3 степени (можно обертывание)
+Гипертония 
+Грудное вскармливание до 6 месяцев 
+Алкогольное опьянение 
+
+
+
+
+2023-08-22 12:44:18,274 - INFO - Process update [ID:214330287]: [failed] (in 317 ms)
+2023-08-22 12:44:18,274 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-32' coro=<Dispatcher._process_polling_updates() done, defined at /Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=TypeError('check_unanswered_messages() takes 0 positional arguments but 1 was given')>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/sergey/ds_bootcamp/InstaMassageBot/Bot/Massage_bot.py", line 101, in handle_user_message
+    loop.create_task(check_unanswered_messages(user_id))
+TypeError: check_unanswered_messages() takes 0 positional arguments but 1 was given
+2023-08-22 12:44:30,300 - INFO - Received message [ID:1349] in chat [private:445152825]
+2023-08-22 12:44:30,597 - INFO - User: Сергей (ID: 445152825)
+Question: это больно?
+Bot Response: Сергей!
+Все достаточно терпимо, зависит от дня цикла и в целом от болевого порога!
+
+
+
+2023-08-22 12:44:30,597 - INFO - Process update [ID:214330288]: [failed] (in 298 ms)
+2023-08-22 12:44:30,597 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-36' coro=<Dispatcher._process_polling_updates() done, defined at /Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=TypeError('check_unanswered_messages() takes 0 positional arguments but 1 was given')>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/sergey/ds_bootcamp/InstaMassageBot/Bot/Massage_bot.py", line 101, in handle_user_message
+    loop.create_task(check_unanswered_messages(user_id))
+TypeError: check_unanswered_messages() takes 0 positional arguments but 1 was given
+2023-08-22 12:44:42,318 - INFO - Received message [ID:1351] in chat [private:445152825]
+2023-08-22 12:44:42,712 - INFO - User: Сергей (ID: 445152825)
+Question: а как часто можно ходить на массаж?
+Bot Response: Сергей!
+Посещение 2-3 раза в неделю, может быть чаще или реже , все зависит от вашего тела (реакция сосудов) 
+
+
+
+2023-08-22 12:44:42,712 - INFO - Process update [ID:214330289]: [failed] (in 394 ms)
+2023-08-22 12:44:42,712 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-40' coro=<Dispatcher._process_polling_updates() done, defined at /Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=TypeError('check_unanswered_messages() takes 0 positional arguments but 1 was given')>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/sergey/ds_bootcamp/InstaMassageBot/Bot/Massage_bot.py", line 101, in handle_user_message
+    loop.create_task(check_unanswered_messages(user_id))
+TypeError: check_unanswered_messages() takes 0 positional arguments but 1 was given
+2023-08-22 12:44:50,958 - INFO - Received message [ID:1353] in chat [private:445152825]
+2023-08-22 12:44:51,215 - INFO - User: Сергей (ID: 445152825)
+Question: А можно совмещать?
+Bot Response: Сергей!
+Да, можно, но не в один день.
+
+
+
+2023-08-22 12:44:51,215 - INFO - Process update [ID:214330290]: [failed] (in 258 ms)
+2023-08-22 12:44:51,216 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-44' coro=<Dispatcher._process_polling_updates() done, defined at /Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=TypeError('check_unanswered_messages() takes 0 positional arguments but 1 was given')>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/sergey/ds_bootcamp/InstaMassageBot/Bot/Massage_bot.py", line 101, in handle_user_message
+    loop.create_task(check_unanswered_messages(user_id))
+TypeError: check_unanswered_messages() takes 0 positional arguments but 1 was given
+2023-08-22 12:45:03,197 - INFO - Received message [ID:1355] in chat [private:445152825]
+2023-08-22 12:45:03,573 - INFO - User: Сергей (ID: 445152825)
+Question: У вас есть массаж лица?
+Bot Response: Сергей!
+Да, у нас есть классический массаж лица и сплит масаж.
+
+
+
+2023-08-22 12:45:03,573 - INFO - Process update [ID:214330291]: [failed] (in 377 ms)
+2023-08-22 12:45:03,573 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-48' coro=<Dispatcher._process_polling_updates() done, defined at /Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=TypeError('check_unanswered_messages() takes 0 positional arguments but 1 was given')>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/sergey/ds_bootcamp/InstaMassageBot/Bot/Massage_bot.py", line 101, in handle_user_message
+    loop.create_task(check_unanswered_messages(user_id))
+TypeError: check_unanswered_messages() takes 0 positional arguments but 1 was given
+2023-08-22 12:45:13,374 - INFO - Received message [ID:1357] in chat [private:445152825]
+2023-08-22 12:45:13,649 - INFO - User: Сергей (ID: 445152825)
+Question: что такое сплит массаж?
+Bot Response: Сергей!
+Сплит массаж - это инновация в области массажа лица. 
+Чтобы лучше понять, что это такое, попробуем провести аналогии с массажем тела.
+Лицо, так же как и тело, состоит из жировой ткани, мышц, креплений, связок, костей, фасций. 
+Изменения, которые происходят с нашим телом, также происходят в тканях, из которых состоит наше лицо. 
+И благодаря сплит массажу наше лицо, как и тело можно поддерживать в отличной форме.
+
+
+
+
+2023-08-22 12:45:13,649 - INFO - Process update [ID:214330292]: [failed] (in 275 ms)
+2023-08-22 12:45:13,664 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-52' coro=<Dispatcher._process_polling_updates() done, defined at /Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=TypeError('check_unanswered_messages() takes 0 positional arguments but 1 was given')>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/sergey/ds_bootcamp/InstaMassageBot/Bot/Massage_bot.py", line 101, in handle_user_message
+    loop.create_task(check_unanswered_messages(user_id))
+TypeError: check_unanswered_messages() takes 0 positional arguments but 1 was given
+2023-08-22 12:45:24,001 - INFO - Received message [ID:1359] in chat [private:445152825]
+2023-08-22 12:45:24,314 - INFO - User: Сергей (ID: 445152825)
+Question: А сколько длится сплит массаж?
+Bot Response: Сергей!
+Сплит массаж лица
+Стоимость 3000₽
+
+
+
+
+2023-08-22 12:45:24,316 - INFO - Process update [ID:214330293]: [failed] (in 315 ms)
+2023-08-22 12:45:24,316 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-56' coro=<Dispatcher._process_polling_updates() done, defined at /Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=TypeError('check_unanswered_messages() takes 0 positional arguments but 1 was given')>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/sergey/ds_bootcamp/InstaMassageBot/Bot/Massage_bot.py", line 101, in handle_user_message
+    loop.create_task(check_unanswered_messages(user_id))
+TypeError: check_unanswered_messages() takes 0 positional arguments but 1 was given
+2023-08-22 12:45:40,022 - INFO - Received message [ID:1361] in chat [private:445152825]
+2023-08-22 12:45:40,293 - INFO - User: Сергей (ID: 445152825)
+Question: какая длительность сплит массажа?
+Bot Response: Сергей!
+Польза медового массажа:
+Увеличение упругости кожи
+Избавление от проблемы "апельсиновой корки", целлюлитаулучшение кровообращения, 
+Ускорение лимфотока в организме
+Укрепление общего иммунитета, профилактика частых простудных заболеваний снятие нервного напряжения
+Уменьшение проявления пигментных пятен на лице, теле
+Нормализация артериального давления улучшение вида кожи
+Избавление от мигреней, головных болей, болей в области спины, шен
+Очищение, достижение эффекта пилинга кожи лица, тела
+Лечение и профилактика костных болезней организма (остеохондроза, радикулита)
+Уменьшение проявлений возрастных изменений кожи, растяжек, шрамов
+
+
+
+2023-08-22 12:45:40,293 - INFO - Process update [ID:214330294]: [failed] (in 271 ms)
+2023-08-22 12:45:40,293 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-60' coro=<Dispatcher._process_polling_updates() done, defined at /Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=TypeError('check_unanswered_messages() takes 0 positional arguments but 1 was given')>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/sergey/ds_bootcamp/InstaMassageBot/Bot/Massage_bot.py", line 101, in handle_user_message
+    loop.create_task(check_unanswered_messages(user_id))
+TypeError: check_unanswered_messages() takes 0 positional arguments but 1 was given
+2023-08-22 12:45:54,360 - INFO - Received message [ID:1363] in chat [private:445152825]
+2023-08-22 12:45:54,624 - INFO - User: Сергей (ID: 445152825)
+Question: Сколько по времени длится сплит массаж?
+Bot Response: Сергей!
+Сплит массаж лица длится около 2-х часов
+
+
+
+2023-08-22 12:45:54,625 - INFO - Process update [ID:214330295]: [failed] (in 265 ms)
+2023-08-22 12:45:54,629 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-65' coro=<Dispatcher._process_polling_updates() done, defined at /Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=TypeError('check_unanswered_messages() takes 0 positional arguments but 1 was given')>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/sergey/ds_bootcamp/InstaMassageBot/Bot/Massage_bot.py", line 101, in handle_user_message
+    loop.create_task(check_unanswered_messages(user_id))
+TypeError: check_unanswered_messages() takes 0 positional arguments but 1 was given
+2023-08-22 12:46:08,040 - INFO - Received message [ID:1365] in chat [private:445152825]
+2023-08-22 12:46:08,311 - INFO - User: Сергей (ID: 445152825)
+Question: что нужно брать с собой?
+Bot Response: Сергей!
+Ничего. Мы предоставляем все необходимое.
+
+
+
+2023-08-22 12:46:08,311 - INFO - Process update [ID:214330296]: [failed] (in 272 ms)
+2023-08-22 12:46:08,316 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-69' coro=<Dispatcher._process_polling_updates() done, defined at /Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=TypeError('check_unanswered_messages() takes 0 positional arguments but 1 was given')>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/sergey/ds_bootcamp/InstaMassageBot/Bot/Massage_bot.py", line 101, in handle_user_message
+    loop.create_task(check_unanswered_messages(user_id))
+TypeError: check_unanswered_messages() takes 0 positional arguments but 1 was given
+2023-08-22 12:46:17,790 - INFO - Received message [ID:1367] in chat [private:445152825]
+2023-08-22 12:46:18,032 - INFO - User: Сергей (ID: 445152825)
+Question: у вас есть душ?
+Bot Response: Сергей!
+Да, у нас есть классический массаж лица и сплит масаж.
+
+
+
+2023-08-22 12:46:18,032 - INFO - Process update [ID:214330297]: [failed] (in 242 ms)
+2023-08-22 12:46:18,033 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-73' coro=<Dispatcher._process_polling_updates() done, defined at /Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=TypeError('check_unanswered_messages() takes 0 positional arguments but 1 was given')>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/sergey/ds_bootcamp/InstaMassageBot/Bot/Massage_bot.py", line 101, in handle_user_message
+    loop.create_task(check_unanswered_messages(user_id))
+TypeError: check_unanswered_messages() takes 0 positional arguments but 1 was given
+2023-08-22 12:46:28,521 - INFO - Received message [ID:1369] in chat [private:445152825]
+2023-08-22 12:46:28,806 - INFO - User: Сергей (ID: 445152825)
+Question: Мне нужно будет в душ?
+Bot Response: Сергей!
+Да, можно, но не в один день.
+
+
+
+2023-08-22 12:46:28,806 - INFO - Process update [ID:214330298]: [failed] (in 285 ms)
+2023-08-22 12:46:28,807 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-77' coro=<Dispatcher._process_polling_updates() done, defined at /Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=TypeError('check_unanswered_messages() takes 0 positional arguments but 1 was given')>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/sergey/ds_bootcamp/InstaMassageBot/Bot/Massage_bot.py", line 101, in handle_user_message
+    loop.create_task(check_unanswered_messages(user_id))
+TypeError: check_unanswered_messages() takes 0 positional arguments but 1 was given
+2023-08-22 12:46:34,157 - INFO - Received message [ID:1371] in chat [private:445152825]
+2023-08-22 12:46:34,451 - INFO - User: Сергей (ID: 445152825)
+Question: душ
+Bot Response: Сергей!
+Давайте разберемся какой массаж лучше ручной корректирующий или  аппаратный?
+Если ваша цель - избавиться от лишних килограммов, смоделировать силуэт и устранить целлюлитную корочку, то методики аппаратного и ручного массажа показывают одинаковые результаты. Выбор той или иной методики зависит от ваших личных предпочтений, показаний и противопоказаний, а также рекомендаций специалиста.
+Если провести одну и ту же процедуру одинаковым по объемам пациентам, результат все равно будет разным.
+Всё очень индивидуально.
+Ручной массаж эффективен, если специалист опытный и понимает физиологию человека.
+Цель массажа - улучшить микроциркуляцию подкожно-жировой клетчатки, обмен веществ, эластичность стенок сосудов, а также укрепить дополнительными процедурами, чтобы повысить внутренние силы организма. Помимо массажа и процедур человек должен соблюдать режим, правильно питаться, иметь физические нагрузки. Учтите, что очень многое, включая эффективность процедур, зависит от вашего режима.
+Самое отличительное - это то, что касается аппаратных процедур, то ими тяжело снять стресс и хроническую усталость. Кортизол, выделяемый из коры надпочечников, блокирует рецепторы, которые стимулирует липолиз (расщепление жира). Поэтому ручной массаж справится эффективнее!!
+В случае же с ручным массажем мастер может использовать дополнительные косметические средства (антицеллюлитные, улучшающие эластичность кожи) для усиления эффекта!!
+Допустим, у нас есть процедура обертывание, после которого кожа просто шёлковая!
+
+
+
+2023-08-22 12:46:34,452 - INFO - Process update [ID:214330299]: [failed] (in 295 ms)
+2023-08-22 12:46:34,455 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-81' coro=<Dispatcher._process_polling_updates() done, defined at /Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=TypeError('check_unanswered_messages() takes 0 positional arguments but 1 was given')>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/sergey/ds_bootcamp/InstaMassageBot/Bot/Massage_bot.py", line 101, in handle_user_message
+    loop.create_task(check_unanswered_messages(user_id))
+TypeError: check_unanswered_messages() takes 0 positional arguments but 1 was given
+2023-08-22 12:46:48,866 - INFO - Received message [ID:1373] in chat [private:445152825]
+2023-08-22 12:46:49,123 - INFO - User: Сергей (ID: 445152825)
+Question: какой у вас адрес?
+Bot Response: Сергей!
+Принимаем по адресу: - Центр,Ставрополь, ул.Пушкина 9 тц «Сити Парк» 
+- Юг, Ставрополь, ул.50лет ВЛКСМ 28а, тц «Милан» 
+- Михайловск, ул. Вокзальная 117/1
+
+
+
+2023-08-22 12:46:49,123 - INFO - Process update [ID:214330300]: [failed] (in 258 ms)
+2023-08-22 12:46:49,123 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-85' coro=<Dispatcher._process_polling_updates() done, defined at /Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=TypeError('check_unanswered_messages() takes 0 positional arguments but 1 was given')>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/sergey/ds_bootcamp/InstaMassageBot/Bot/Massage_bot.py", line 101, in handle_user_message
+    loop.create_task(check_unanswered_messages(user_id))
+TypeError: check_unanswered_messages() takes 0 positional arguments but 1 was given
+2023-08-22 12:47:00,230 - INFO - Received message [ID:1375] in chat [private:445152825]
+2023-08-22 12:47:00,481 - INFO - User: Сергей (ID: 445152825)
+Question: а как можно оплатить?
+Bot Response: Сергей!
+Можно оплатить картой, переводом, наличными. Так же принимаем Bitcoin и USDT.
+
+
+
+2023-08-22 12:47:00,481 - INFO - Process update [ID:214330301]: [failed] (in 252 ms)
+2023-08-22 12:47:00,482 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-89' coro=<Dispatcher._process_polling_updates() done, defined at /Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=TypeError('check_unanswered_messages() takes 0 positional arguments but 1 was given')>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/sergey/ds_bootcamp/InstaMassageBot/Bot/Massage_bot.py", line 101, in handle_user_message
+    loop.create_task(check_unanswered_messages(user_id))
+TypeError: check_unanswered_messages() takes 0 positional arguments but 1 was given
+2023-08-22 12:47:18,609 - INFO - Received message [ID:1377] in chat [private:445152825]
+2023-08-22 12:47:18,866 - INFO - Process update [ID:214330302]: [failed] (in 257 ms)
+2023-08-22 12:47:18,867 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-93' coro=<Dispatcher._process_polling_updates() done, defined at /Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=TypeError('check_unanswered_messages() takes 0 positional arguments but 1 was given')>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/sergey/ds_bootcamp/InstaMassageBot/Bot/Massage_bot.py", line 65, in handle_user_message
+    loop.create_task(check_unanswered_messages(user_id))
+TypeError: check_unanswered_messages() takes 0 positional arguments but 1 was given
+2023-08-22 12:47:22,885 - INFO - Received message [ID:1380] in chat [private:445152825]
+2023-08-22 12:47:23,036 - INFO - Process update [ID:214330303]: [success] (in 152 ms)
+2023-08-22 12:47:38,156 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-1' coro=<check_unanswered_messages() done, defined at /Users/sergey/ds_bootcamp/InstaMassageBot/Bot/Massage_bot.py:107> exception=RuntimeError('dictionary changed size during iteration')>
+Traceback (most recent call last):
+  File "/Users/sergey/ds_bootcamp/InstaMassageBot/Bot/Massage_bot.py", line 111, in check_unanswered_messages
+    for user_id, last_message_time in last_messages.items():
+RuntimeError: dictionary changed size during iteration
+2023-08-22 17:55:01,845 - INFO - Bot: MassageSlimGirl [@InstaMassageBot]
+2023-08-22 17:55:01,995 - WARNING - Updates were skipped successfully.
+2023-08-22 17:55:01,995 - INFO - Start polling.
+2023-08-22 17:55:19,616 - INFO - Received message [ID:1384] in chat [private:445152825]
+2023-08-22 17:55:19,731 - INFO - Process update [ID:214330304]: [success] (in 115 ms)
+2023-08-22 17:55:29,547 - INFO - Received message [ID:1386] in chat [private:445152825]
+2023-08-22 17:55:29,815 - INFO - Process update [ID:214330305]: [failed] (in 268 ms)
+2023-08-22 17:55:29,816 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-15' coro=<Dispatcher._process_polling_updates() done, defined at /Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=TypeError('check_unanswered_messages() takes 0 positional arguments but 1 was given')>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/sergey/ds_bootcamp/InstaMassageBot/Bot/Massage_bot.py", line 65, in handle_user_message
+    loop.create_task(check_unanswered_messages(user_id))
+TypeError: check_unanswered_messages() takes 0 positional arguments but 1 was given
+2023-08-22 17:55:38,661 - INFO - Received message [ID:1389] in chat [private:445152825]
+2023-08-22 17:55:38,905 - INFO - User: Сергей (ID: 445152825)
+Question: Какой массаж вы делаете?
+Bot Response: Сергей!
+Мы делаем такие виды массажа как: 
+карамельная липосакция,
+антицеллюлитный массаж, 
+медовый массаж, 
+лимфодренажный массаж(ручной и аппаратный),
+обертывание, дренажный массаж, 
+массаж с горячим скрабом, 
+аппаратный массаж, 
+вибромассаж, кавитация, 
+вакумный массаж, 
+биофотон, 
+массаж лица классический, 
+сплит массаж лица. 
+
+
+
+2023-08-22 17:55:38,905 - INFO - Process update [ID:214330306]: [failed] (in 245 ms)
+2023-08-22 17:55:38,907 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-20' coro=<Dispatcher._process_polling_updates() done, defined at /Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=TypeError('check_unanswered_messages() takes 0 positional arguments but 1 was given')>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/sergey/ds_bootcamp/InstaMassageBot/Bot/Massage_bot.py", line 101, in handle_user_message
+    loop.create_task(check_unanswered_messages(user_id))
+TypeError: check_unanswered_messages() takes 0 positional arguments but 1 was given

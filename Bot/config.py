@@ -1,2 +1,2 @@
-TOKEN = '6557394623:AAF75UJVve9U3tcx9huQE7jyF5XlAtU5cY0'
-ADMIN_USER_ID = '445152825'
+TOKEN = 'your_token'
+ADMIN_USER_ID = 'your_user_id'
